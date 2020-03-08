@@ -3,7 +3,7 @@ def square_array(array)
   a = 0
   array.each do |number|
     a = squares.push(number*number)
-    puts(#{a})
+    puts "#{a}"
 end
 squares
 end
