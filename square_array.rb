@@ -1,8 +1,9 @@
 def square_array(array)
   squares = []
+  a = 0
   array.each do |number|
-    squares.push(number*number)
-    puts(#{squares)
+    a = squares.push(number*number)
+    puts(#{a})
 end
 squares
 end
